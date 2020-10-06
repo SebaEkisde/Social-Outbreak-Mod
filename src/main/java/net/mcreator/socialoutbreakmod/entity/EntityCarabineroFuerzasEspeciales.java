@@ -69,7 +69,7 @@ public class EntityCarabineroFuerzasEspeciales extends ElementsSocialOutbreakMod
 		RenderingRegistry.registerEntityRenderingHandler(EntityCustom.class, renderManager -> {
 			RenderBiped customRender = new RenderBiped(renderManager, new ModelBiped(), 0.5f) {
 				protected ResourceLocation getEntityTexture(Entity entity) {
-					return new ResourceLocation("social_outbreak_mod:textures/90dc8ce03893784c6dd0a75c0bbfa7cb03067b4a.png");
+					return new ResourceLocation("social_outbreak_mod:textures/2020-09-30-224304-carabinero_ffee.png");
 				}
 			};
 			customRender.addLayer(new net.minecraft.client.renderer.entity.layers.LayerBipedArmor(customRender) {

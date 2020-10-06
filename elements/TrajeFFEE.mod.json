@@ -1,0 +1,57 @@
+{
+  "_fv": 10,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "2020-09-30-223950-casco_ffee",
+    "enableBody": true,
+    "textureBody": "2020-09-30-224014-chaleco_ffee",
+    "enableLeggings": true,
+    "textureLeggings": "2020-09-30-224044-pantalones_ffee",
+    "enableBoots": true,
+    "textureBoots": "2020-09-30-224157-zapatos_de_carabinero",
+    "creativeTab": {
+      "value": "CUSTOM:Outbreakarmor"
+    },
+    "armorTextureFile": "2020-09-30-224251-ffee_",
+    "helmetName": "Casco FFEE ",
+    "bodyName": "Chaleco FFEE ",
+    "leggingsName": "Pantalones FFEE",
+    "bootsName": "Botas FFEE",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 30,
+    "damageValueHelmet": 6,
+    "damageValueBody": 11,
+    "damageValueLeggings": 8,
+    "damageValueBoots": 6,
+    "enchantability": 12,
+    "toughness": 1.5,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "Items.IRON_INGOT"
+      }
+    ]
+  }
+}

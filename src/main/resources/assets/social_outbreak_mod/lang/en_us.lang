@@ -1,3 +1,14 @@
-entity.carabinero_fuerzas_especiales.name=Carabinero Fuerzas Especiales
 itemGroup.taboutbreak_mobs=Outbreak Mobs
+item.traje_carabineroboots.name=Botas de Carabinero
 entity.carabinero.name=Carabinero
+item.traje_carabinerohelmet.name=Gorra de Carabinero
+item.traje_ffeehelmet.name=Casco FFEE 
+entity.carabinero_fuerzas_especiales.name=Carabinero Fuerzas Especiales
+item.acta_de_independencia.name=Acta De Independencia
+itemGroup.taboutbreakarmor=Outbreak Armor
+item.traje_carabinerolegs.name=Pantalones de Carabinero
+item.traje_ffeebody.name=Chaleco FFEE 
+item.traje_ffeelegs.name=Pantalones FFEE
+item.traje_ffeeboots.name=Botas FFEE
+item.traje_carabinerobody.name=Chaleco de Carabinero
+itemGroup.taboutbreak_items=Outbreak Items

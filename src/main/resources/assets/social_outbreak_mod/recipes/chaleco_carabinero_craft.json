@@ -1,0 +1,36 @@
+{
+  "group": "social_outbreak_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_nugget"
+    },
+    "2": {
+      "item": "minecraft:gold_nugget"
+    },
+    "3": {
+      "item": "minecraft:wool",
+      "data": 5
+    },
+    "4": {
+      "item": "minecraft:iron_chestplate"
+    },
+    "5": {
+      "item": "minecraft:wool",
+      "data": 5
+    },
+    "7": {
+      "item": "minecraft:wool",
+      "data": 0
+    }
+  },
+  "result": {
+    "item": "social_outbreak_mod:traje_carabinerobody",
+    "count": 1
+  }
+}

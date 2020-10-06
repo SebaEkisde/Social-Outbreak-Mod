@@ -35,15 +35,155 @@
         "1": 4
       },
       "registry_name": "carabinero_fuerzas_especiales"
+    },
+    {
+      "name": "TrajeCarabinero",
+      "type": "armor",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "traje_carabinero",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Outbreakarmor",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "outbreakarmor"
+    },
+    {
+      "name": "TrajeFFEE",
+      "type": "armor",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "traje_ffee",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "CascoCarabineroCraft",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "casco_carabinero_craft"
+    },
+    {
+      "name": "ChalecoCarabineroCraft",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chaleco_carabinero_craft"
+    },
+    {
+      "name": "PantalonCarabineroCraft",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pantalon_carabinero_craft"
+    },
+    {
+      "name": "BotasCarabineroCraft",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "botas_carabinero_craft"
+    },
+    {
+      "name": "CascoFFEECraft",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "casco_ffee_craft"
+    },
+    {
+      "name": "ChalecoFFEECraft",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chaleco_ffee_craft"
+    },
+    {
+      "name": "PantalonesFFEECraft",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pantalones_ffee_craft"
+    },
+    {
+      "name": "BotasFFEECraft",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "botas_ffee_craft"
+    },
+    {
+      "name": "ActaDeIndependencia",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "acta_de_independencia"
+    },
+    {
+      "name": "OutbreakItems",
+      "type": "tab",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "outbreak_items"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "entity.carabinero_fuerzas_especiales.name": "Carabinero Fuerzas Especiales",
       "itemGroup.taboutbreak_mobs": "Outbreak Mobs",
-      "entity.carabinero.name": "Carabinero"
+      "item.traje_carabineroboots.name": "Botas de Carabinero",
+      "entity.carabinero.name": "Carabinero",
+      "item.traje_carabinerohelmet.name": "Gorra de Carabinero",
+      "item.traje_ffeehelmet.name": "Casco FFEE ",
+      "entity.carabinero_fuerzas_especiales.name": "Carabinero Fuerzas Especiales",
+      "item.acta_de_independencia.name": "Acta De Independencia",
+      "itemGroup.taboutbreakarmor": "Outbreak Armor",
+      "item.traje_carabinerolegs.name": "Pantalones de Carabinero",
+      "item.traje_ffeebody.name": "Chaleco FFEE ",
+      "item.traje_ffeelegs.name": "Pantalones FFEE",
+      "item.traje_ffeeboots.name": "Botas FFEE",
+      "item.traje_carabinerobody.name": "Chaleco de Carabinero",
+      "itemGroup.taboutbreak_items": "Outbreak Items"
     }
   },
   "workspaceSettings": {
