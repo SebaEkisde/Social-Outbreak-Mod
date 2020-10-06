@@ -1,0 +1,11 @@
+{
+  "_fv": 10,
+  "_type": "tab",
+  "definition": {
+    "name": "Outbreak Mobs",
+    "icon": {
+      "value": "Items.SPAWN_EGG#50"
+    },
+    "showSearch": false
+  }
+}

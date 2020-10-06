@@ -1,0 +1,66 @@
+{
+  "id_map": {
+    "ENTITY": 4
+  },
+  "mod_elements": [
+    {
+      "name": "OutbreakMobs",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "outbreak_mobs"
+    },
+    {
+      "name": "Carabinero",
+      "type": "mob",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 1,
+        "1": 2
+      },
+      "registry_name": "carabinero"
+    },
+    {
+      "name": "CarabineroFuerzasEspeciales",
+      "type": "mob",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 3,
+        "1": 4
+      },
+      "registry_name": "carabinero_fuerzas_especiales"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "entity.carabinero_fuerzas_especiales.name": "Carabinero Fuerzas Especiales",
+      "itemGroup.taboutbreak_mobs": "Outbreak Mobs",
+      "entity.carabinero.name": "Carabinero"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "social_outbreak_mod",
+    "modName": "Social Outbreak Mod",
+    "version": "1.0.0",
+    "author": "Sofia Julieta, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.12.2",
+    "modElementsPackage": "net.mcreator.socialoutbreakmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000432115
+}
