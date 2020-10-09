@@ -12,14 +12,18 @@ import net.minecraftforge.fml.client.registry.RenderingRegistry;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.World;
 import net.minecraft.util.ResourceLocation;
-import net.minecraft.util.EnumParticleTypes;
 import net.minecraft.util.DamageSource;
 import net.minecraft.item.Item;
+import net.minecraft.entity.player.EntityPlayerMP;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.monster.EntityMob;
 import net.minecraft.entity.ai.EntityAIWander;
 import net.minecraft.entity.ai.EntityAISwimming;
+import net.minecraft.entity.ai.EntityAIOpenDoor;
+import net.minecraft.entity.ai.EntityAINearestAttackableTarget;
 import net.minecraft.entity.ai.EntityAILookIdle;
 import net.minecraft.entity.ai.EntityAIHurtByTarget;
+import net.minecraft.entity.ai.EntityAIBreakDoor;
 import net.minecraft.entity.ai.EntityAIAttackMelee;
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.EnumCreatureType;
@@ -30,7 +34,6 @@ import net.minecraft.client.model.ModelBiped;
 
 import net.mcreator.socialoutbreakmod.ElementsSocialOutbreakModMod;
 
-import java.util.Random;
 import java.util.Iterator;
 import java.util.ArrayList;
 
@@ -93,11 +96,16 @@ public class EntityCarabineroFuerzasEspeciales extends ElementsSocialOutbreakMod
 		@Override
 		protected void initEntityAI() {
 			super.initEntityAI();
-			this.tasks.addTask(1, new EntityAIAttackMelee(this, 1.2, false));
-			this.tasks.addTask(2, new EntityAIWander(this, 1));
-			this.targetTasks.addTask(3, new EntityAIHurtByTarget(this, false));
-			this.tasks.addTask(4, new EntityAILookIdle(this));
-			this.tasks.addTask(5, new EntityAISwimming(this));
+			this.targetTasks.addTask(1, new EntityAINearestAttackableTarget(this, EntityPlayerMP.class, false, false));
+			this.targetTasks.addTask(2, new EntityAINearestAttackableTarget(this, EntityPlayer.class, false, false));
+			this.tasks.addTask(3, new EntityAIAttackMelee(this, 1.2, false));
+			this.tasks.addTask(4, new EntityAIOpenDoor(this, false));
+			this.tasks.addTask(5, new EntityAIOpenDoor(this, true));
+			this.tasks.addTask(6, new EntityAIWander(this, 1));
+			this.tasks.addTask(7, new EntityAIBreakDoor(this));
+			this.targetTasks.addTask(8, new EntityAIHurtByTarget(this, false));
+			this.tasks.addTask(9, new EntityAILookIdle(this));
+			this.tasks.addTask(10, new EntityAISwimming(this));
 		}
 
 		@Override
@@ -136,30 +144,11 @@ public class EntityCarabineroFuerzasEspeciales extends ElementsSocialOutbreakMod
 			if (this.getEntityAttribute(SharedMonsterAttributes.ARMOR) != null)
 				this.getEntityAttribute(SharedMonsterAttributes.ARMOR).setBaseValue(0.3D);
 			if (this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED) != null)
-				this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.6D);
+				this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.7D);
 			if (this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH) != null)
 				this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(10D);
 			if (this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE) != null)
 				this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(6D);
-		}
-
-		public void onLivingUpdate() {
-			super.onLivingUpdate();
-			int i = (int) this.posX;
-			int j = (int) this.posY;
-			int k = (int) this.posZ;
-			Random random = this.rand;
-			if (true)
-				for (int l = 0; l < 4; ++l) {
-					double d0 = (i + random.nextFloat());
-					double d1 = (j + random.nextFloat());
-					double d2 = (k + random.nextFloat());
-					int i1 = random.nextInt(2) * 2 - 1;
-					double d3 = (random.nextFloat() - 0.5D) * 0.5D;
-					double d4 = (random.nextFloat() - 0.5D) * 0.5D;
-					double d5 = (random.nextFloat() - 0.5D) * 0.5D;
-					world.spawnParticle(EnumParticleTypes.EXPLOSION_NORMAL, d0, d1, d2, d3, d4, d5);
-				}
 		}
 	}
 }

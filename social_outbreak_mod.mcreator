@@ -4,15 +4,6 @@
   },
   "mod_elements": [
     {
-      "name": "OutbreakMobs",
-      "type": "tab",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "outbreak_mobs"
-    },
-    {
       "name": "Carabinero",
       "type": "mob",
       "sortid": 1,
@@ -164,24 +155,42 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "outbreak_items"
+    },
+    {
+      "name": "Panuelorojo",
+      "type": "armor",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "panuelorojo",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "itemGroup.taboutbreak_mobs": "Outbreak Mobs",
       "item.traje_carabineroboots.name": "Botas de Carabinero",
+      "item.panuelorojohelmet.name": "Pañuelo rojo ",
       "entity.carabinero.name": "Carabinero",
       "item.traje_carabinerohelmet.name": "Gorra de Carabinero",
       "item.traje_ffeehelmet.name": "Casco FFEE ",
+      "item.panuelorojolegs.name": "Panuelorojo Leggings",
       "entity.carabinero_fuerzas_especiales.name": "Carabinero Fuerzas Especiales",
       "item.acta_de_independencia.name": "Acta De Independencia",
       "itemGroup.taboutbreakarmor": "Outbreak Armor",
+      "item.panuelorojoboots.name": "Panuelorojo Boots",
       "item.traje_carabinerolegs.name": "Pantalones de Carabinero",
       "item.traje_ffeebody.name": "Chaleco FFEE ",
       "item.traje_ffeelegs.name": "Pantalones FFEE",
       "item.traje_ffeeboots.name": "Botas FFEE",
+      "item.panuelorojobody.name": "Panuelorojo Body",
       "item.traje_carabinerobody.name": "Chaleco de Carabinero",
       "itemGroup.taboutbreak_items": "Outbreak Items"
     }

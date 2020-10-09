@@ -33,8 +33,9 @@ public class ItemTrajeCarabinero extends ElementsSocialOutbreakModMod.ModElement
 
 	@Override
 	public void initElements() {
-		ItemArmor.ArmorMaterial enuma = EnumHelper.addArmorMaterial("TRAJE_CARABINERO", "social_outbreak_mod:carabinero_", 27, new int[]{4, 7, 8, 4},
-				9, (net.minecraft.util.SoundEvent) net.minecraft.util.SoundEvent.REGISTRY.getObject(new ResourceLocation("")), 1f);
+		ItemArmor.ArmorMaterial enuma = EnumHelper.addArmorMaterial("TRAJE_CARABINERO", "social_outbreak_mod:2020-09-30-224105-carabinero_", 27,
+				new int[]{4, 7, 8, 4}, 9, (net.minecraft.util.SoundEvent) net.minecraft.util.SoundEvent.REGISTRY.getObject(new ResourceLocation("")),
+				1f);
 		elements.items.add(() -> new ItemArmor(enuma, 0, EntityEquipmentSlot.HEAD).setUnlocalizedName("traje_carabinerohelmet")
 				.setRegistryName("traje_carabinerohelmet").setCreativeTab(TabOutbreakarmor.tab));
 		elements.items.add(() -> new ItemArmor(enuma, 0, EntityEquipmentSlot.CHEST).setUnlocalizedName("traje_carabinerobody")

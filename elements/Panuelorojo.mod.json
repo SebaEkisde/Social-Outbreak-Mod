@@ -3,21 +3,21 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "2020-09-30-224054-gorro_de_carabinero",
-    "enableBody": true,
-    "textureBody": "2020-09-30-224117-camisa_de_carabinero",
-    "enableLeggings": true,
-    "textureLeggings": "2020-09-30-224145-pantalones_de_carabinero",
-    "enableBoots": true,
-    "textureBoots": "2020-09-30-224134-zapatos_de_ffee",
+    "textureHelmet": "2020-09-30-224657-panuelo_rojo",
+    "enableBody": false,
+    "textureBody": "",
+    "enableLeggings": false,
+    "textureLeggings": "",
+    "enableBoots": false,
+    "textureBoots": "",
     "creativeTab": {
       "value": "CUSTOM:Outbreakarmor"
     },
-    "armorTextureFile": "2020-09-30-224105-carabinero_",
-    "helmetName": "Gorra de Carabinero",
-    "bodyName": "Chaleco de Carabinero",
-    "leggingsName": "Pantalones de Carabinero",
-    "bootsName": "Botas de Carabinero",
+    "armorTextureFile": "2020-09-30-224350-dibujoe_",
+    "helmetName": "Pañuelo rojo ",
+    "bodyName": "Panuelorojo Body",
+    "leggingsName": "Panuelorojo Leggings",
+    "bootsName": "Panuelorojo Boots",
     "helmetSpecialInfo": [],
     "bodySpecialInfo": [],
     "leggingsSpecialInfo": [],
@@ -38,19 +38,19 @@
     "bootsModelPartL": "Boots L",
     "bootsModelPartR": "Boots R",
     "bootsModelTexture": "From armor",
-    "maxDamage": 27,
-    "damageValueHelmet": 4,
-    "damageValueBody": 8,
-    "damageValueLeggings": 7,
-    "damageValueBoots": 4,
-    "enchantability": 9,
-    "toughness": 1.0,
+    "maxDamage": 23,
+    "damageValueHelmet": 1,
+    "damageValueBody": 6,
+    "damageValueLeggings": 5,
+    "damageValueBoots": 2,
+    "enchantability": 6,
+    "toughness": 0.0,
     "equipSound": {
       "value": ""
     },
     "repairItems": [
       {
-        "value": "Blocks.WOOL#13"
+        "value": "Blocks.WOOL#14"
       }
     ]
   }
