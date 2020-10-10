@@ -1,6 +1,6 @@
 {
   "id_map": {
-    "ENTITY": 4
+    "ENTITY": 5
   },
   "mod_elements": [
     {
@@ -170,28 +170,116 @@
         "eb": false,
         "ec": false
       }
+    },
+    {
+      "name": "Trajespiderman",
+      "type": "armor",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "trajespiderman",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Lacrimogena",
+      "type": "gun",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 5
+      },
+      "registry_name": "lacrimogena"
+    },
+    {
+      "name": "LacrimogenaBulletHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lacrimogena_bullet_hits_living_entity",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "LacrimogenaRangedItemUsed",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lacrimogena_ranged_item_used",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Chalecoamarillo",
+      "type": "armor",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chalecoamarillo",
+      "metadata": {
+        "eh": false,
+        "el": false,
+        "eb": false,
+        "ec": true
+      }
+    },
+    {
+      "name": "Cahelcorecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cahelcorecipe"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.traje_carabineroboots.name": "Botas de Carabinero",
       "item.panuelorojohelmet.name": "Pañuelo rojo ",
+      "item.trajespidermanboots.name": "Botas de spiderman",
+      "item.chalecoamarilloboots.name": "Chalecoamarillo Boots",
       "entity.carabinero.name": "Carabinero",
       "item.traje_carabinerohelmet.name": "Gorra de Carabinero",
-      "item.traje_ffeehelmet.name": "Casco FFEE ",
       "item.panuelorojolegs.name": "Panuelorojo Leggings",
-      "entity.carabinero_fuerzas_especiales.name": "Carabinero Fuerzas Especiales",
       "item.acta_de_independencia.name": "Acta De Independencia",
       "itemGroup.taboutbreakarmor": "Outbreak Armor",
-      "item.panuelorojoboots.name": "Panuelorojo Boots",
       "item.traje_carabinerolegs.name": "Pantalones de Carabinero",
-      "item.traje_ffeebody.name": "Chaleco FFEE ",
-      "item.traje_ffeelegs.name": "Pantalones FFEE",
       "item.traje_ffeeboots.name": "Botas FFEE",
-      "item.panuelorojobody.name": "Panuelorojo Body",
+      "item.trajespidermanhelmet.name": "Mascara de spiderman",
       "item.traje_carabinerobody.name": "Chaleco de Carabinero",
+      "item.traje_carabineroboots.name": "Botas de Carabinero",
+      "item.lacrimogena.name": "Lacrimogena",
+      "item.trajespidermanlegs.name": "Pantalones de spiderman",
+      "item.traje_ffeehelmet.name": "Casco FFEE ",
+      "entity.carabinero_fuerzas_especiales.name": "Carabinero Fuerzas Especiales",
+      "item.trajespidermanbody.name": "Polera de spiderman",
+      "item.panuelorojoboots.name": "Panuelorojo Boots",
+      "item.chalecoamarillohelmet.name": "Chalecoamarillo Helmet",
+      "item.chalecoamarillobody.name": "Chaleco amarillo ",
+      "item.traje_ffeebody.name": "Chaleco FFEE ",
+      "item.chalecoamarillolegs.name": "Chalecoamarillo Leggings",
+      "item.traje_ffeelegs.name": "Pantalones FFEE",
+      "item.panuelorojobody.name": "Panuelorojo Body",
       "itemGroup.taboutbreak_items": "Outbreak Items"
     }
   },
