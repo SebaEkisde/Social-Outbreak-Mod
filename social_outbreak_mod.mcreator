@@ -249,6 +249,41 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "cahelcorecipe"
+    },
+    {
+      "name": "Cono",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cono"
+    },
+    {
+      "name": "Criochet",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "criochet"
+    },
+    {
+      "name": "ChalecoamarilloBodyTickEvent",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chalecoamarillo_body_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -267,9 +302,11 @@
       "item.traje_ffeeboots.name": "Botas FFEE",
       "item.trajespidermanhelmet.name": "Mascara de spiderman",
       "item.traje_carabinerobody.name": "Chaleco de Carabinero",
+      "tile.cono.name": "Cono",
       "item.traje_carabineroboots.name": "Botas de Carabinero",
       "item.lacrimogena.name": "Lacrimogena",
       "item.trajespidermanlegs.name": "Pantalones de spiderman",
+      "tile.criochet.name": "Cono",
       "item.traje_ffeehelmet.name": "Casco FFEE ",
       "entity.carabinero_fuerzas_especiales.name": "Carabinero Fuerzas Especiales",
       "item.trajespidermanbody.name": "Polera de spiderman",

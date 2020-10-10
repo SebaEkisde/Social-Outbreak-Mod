@@ -2,7 +2,7 @@
   "group": "social_outbreak_mod",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "0 2",
+    "012",
     "345",
     "678"
   ],
@@ -10,6 +10,9 @@
     "0": {
       "item": "minecraft:wool",
       "data": 4
+    },
+    "1": {
+      "item": "minecraft:glowstone"
     },
     "2": {
       "item": "minecraft:wool",

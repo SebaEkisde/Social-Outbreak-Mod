@@ -1,0 +1,9 @@
+{
+  "parent": "social_outbreak_mod:custom/criochet",
+  "textures": {
+    "all": "social_outbreak_mod:blocks/ice",
+    "particle": "social_outbreak_mod:blocks/ice",
+    "0": "social_outbreak_mod:blocks/ice",
+    "1": "social_outbreak_mod:blocks/augusto-pinochet-14011497"
+  }
+}

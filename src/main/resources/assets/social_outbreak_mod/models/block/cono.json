@@ -1,0 +1,9 @@
+{
+  "parent": "social_outbreak_mod:custom/cono",
+  "textures": {
+    "all": "social_outbreak_mod:blocks/concrete_orange",
+    "particle": "social_outbreak_mod:blocks/concrete_orange",
+    "0": "social_outbreak_mod:blocks/concrete_orange",
+    "1": "social_outbreak_mod:blocks/concrete_white"
+  }
+}

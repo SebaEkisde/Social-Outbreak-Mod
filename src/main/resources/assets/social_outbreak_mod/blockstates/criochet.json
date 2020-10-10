@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "social_outbreak_mod:criochet"
+    },
+    "facing=north": {
+      "model": "social_outbreak_mod:criochet"
+    },
+    "facing=east": {
+      "model": "social_outbreak_mod:criochet",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "social_outbreak_mod:criochet",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "social_outbreak_mod:criochet",
+      "y": 270
+    }
+  }
+}
