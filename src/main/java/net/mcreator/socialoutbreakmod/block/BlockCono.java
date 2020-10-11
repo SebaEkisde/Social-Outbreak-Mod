@@ -61,7 +61,7 @@ public class BlockCono extends ElementsSocialOutbreakModMod.ModElement {
 
 		@Override
 		public AxisAlignedBB getBoundingBox(IBlockState state, IBlockAccess source, BlockPos pos) {
-			return new AxisAlignedBB(0.3D, 0D, 0.3D, 0.7D, 1D, 0.7D);
+			return new AxisAlignedBB(0.3D, 0D, 0.3D, 0.7D, 1.6D, 0.7D);
 		}
 
 		@Override

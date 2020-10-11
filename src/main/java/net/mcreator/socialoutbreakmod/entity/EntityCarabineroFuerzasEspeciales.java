@@ -3,10 +3,8 @@ package net.mcreator.socialoutbreakmod.entity;
 
 import net.minecraftforge.fml.relauncher.SideOnly;
 import net.minecraftforge.fml.relauncher.Side;
-import net.minecraftforge.fml.common.registry.EntityRegistry;
 import net.minecraftforge.fml.common.registry.EntityEntryBuilder;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
-import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.client.registry.RenderingRegistry;
 
 import net.minecraft.world.biome.Biome;
@@ -26,7 +24,6 @@ import net.minecraft.entity.ai.EntityAIHurtByTarget;
 import net.minecraft.entity.ai.EntityAIBreakDoor;
 import net.minecraft.entity.ai.EntityAIAttackMelee;
 import net.minecraft.entity.SharedMonsterAttributes;
-import net.minecraft.entity.EnumCreatureType;
 import net.minecraft.entity.EnumCreatureAttribute;
 import net.minecraft.entity.Entity;
 import net.minecraft.client.renderer.entity.RenderBiped;
@@ -50,12 +47,6 @@ public class EntityCarabineroFuerzasEspeciales extends ElementsSocialOutbreakMod
 		elements.entities.add(() -> EntityEntryBuilder.create().entity(EntityCustom.class)
 				.id(new ResourceLocation("social_outbreak_mod", "carabinero_fuerzas_especiales"), ENTITYID).name("carabinero_fuerzas_especiales")
 				.tracker(67, 3, true).egg(-16764160, -13395712).build());
-	}
-
-	@Override
-	public void init(FMLInitializationEvent event) {
-		Biome[] spawnBiomes = allbiomes(Biome.REGISTRY);
-		EntityRegistry.addSpawn(EntityCustom.class, 6, 2, 5, EnumCreatureType.MONSTER, spawnBiomes);
 	}
 
 	private Biome[] allbiomes(net.minecraft.util.registry.RegistryNamespaced<ResourceLocation, Biome> in) {
@@ -91,6 +82,7 @@ public class EntityCarabineroFuerzasEspeciales extends ElementsSocialOutbreakMod
 			experienceValue = 0;
 			this.isImmuneToFire = false;
 			setNoAI(!true);
+			enablePersistence();
 		}
 
 		@Override
@@ -111,6 +103,11 @@ public class EntityCarabineroFuerzasEspeciales extends ElementsSocialOutbreakMod
 		@Override
 		public EnumCreatureAttribute getCreatureAttribute() {
 			return EnumCreatureAttribute.UNDEFINED;
+		}
+
+		@Override
+		protected boolean canDespawn() {
+			return false;
 		}
 
 		@Override
@@ -146,7 +143,7 @@ public class EntityCarabineroFuerzasEspeciales extends ElementsSocialOutbreakMod
 			if (this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED) != null)
 				this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.7D);
 			if (this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH) != null)
-				this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(10D);
+				this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(30D);
 			if (this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE) != null)
 				this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(6D);
 		}

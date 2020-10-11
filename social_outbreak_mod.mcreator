@@ -1,6 +1,6 @@
 {
   "id_map": {
-    "ENTITY": 5
+    "ENTITY": 7
   },
   "mod_elements": [
     {
@@ -284,6 +284,18 @@
           }
         ]
       }
+    },
+    {
+      "name": "Chalecoamarillomob",
+      "type": "mob",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 6,
+        "1": 7
+      },
+      "registry_name": "chalecoamarillomob"
     }
   ],
   "variable_elements": [],
@@ -313,6 +325,7 @@
       "item.panuelorojoboots.name": "Panuelorojo Boots",
       "item.chalecoamarillohelmet.name": "Chalecoamarillo Helmet",
       "item.chalecoamarillobody.name": "Chaleco amarillo ",
+      "entity.chalecoamarillomob.name": "Chaleco amarillo",
       "item.traje_ffeebody.name": "Chaleco FFEE ",
       "item.chalecoamarillolegs.name": "Chalecoamarillo Leggings",
       "item.traje_ffeelegs.name": "Pantalones FFEE",
