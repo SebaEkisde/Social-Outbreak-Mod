@@ -296,17 +296,36 @@
         "1": 7
       },
       "registry_name": "chalecoamarillomob"
+    },
+    {
+      "name": "Pasamotanta",
+      "type": "armor",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pasamotanta",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.pasamotantalegs.name": "Pasamotanta Leggings",
+      "item.pasamotantaboots.name": "Pasamotanta Boots",
       "item.panuelorojohelmet.name": "Pañuelo rojo ",
       "item.trajespidermanboots.name": "Botas de spiderman",
       "item.chalecoamarilloboots.name": "Chalecoamarillo Boots",
       "entity.carabinero.name": "Carabinero",
+      "item.pasamotantabody.name": "Pasamotanta Body",
       "item.traje_carabinerohelmet.name": "Gorra de Carabinero",
+      "item.pasamotantahelmet.name": "Pasa montañas",
       "item.panuelorojolegs.name": "Panuelorojo Leggings",
       "item.acta_de_independencia.name": "Acta De Independencia",
       "itemGroup.taboutbreakarmor": "Outbreak Armor",
