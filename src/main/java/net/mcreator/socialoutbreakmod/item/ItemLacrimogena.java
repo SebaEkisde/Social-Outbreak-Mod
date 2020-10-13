@@ -32,7 +32,7 @@ import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.client.Minecraft;
 
 import net.mcreator.socialoutbreakmod.procedure.ProcedureLacrimogenaRangedItemUsed;
-import net.mcreator.socialoutbreakmod.procedure.ProcedureLacrimogenaBulletHitsLivingEntity;
+import net.mcreator.socialoutbreakmod.procedure.ProcedureLacrimogenaBulletHitsBlocke;
 import net.mcreator.socialoutbreakmod.creativetab.TabOutbreakItems;
 import net.mcreator.socialoutbreakmod.ElementsSocialOutbreakModMod;
 
@@ -175,7 +175,11 @@ public class ItemLacrimogena extends ElementsSocialOutbreakModMod.ModElement {
 			World world = this.world;
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
-				ProcedureLacrimogenaBulletHitsLivingEntity.executeProcedure($_dependencies);
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				ProcedureLacrimogenaBulletHitsBlocke.executeProcedure($_dependencies);
 			}
 		}
 
@@ -190,7 +194,11 @@ public class ItemLacrimogena extends ElementsSocialOutbreakModMod.ModElement {
 			if (this.inGround) {
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
-					ProcedureLacrimogenaBulletHitsLivingEntity.executeProcedure($_dependencies);
+					$_dependencies.put("x", x);
+					$_dependencies.put("y", y);
+					$_dependencies.put("z", z);
+					$_dependencies.put("world", world);
+					ProcedureLacrimogenaBulletHitsBlocke.executeProcedure($_dependencies);
 				}
 				this.world.removeEntity(this);
 			}

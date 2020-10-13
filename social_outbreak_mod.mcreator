@@ -311,25 +311,64 @@
         "eb": false,
         "ec": false
       }
+    },
+    {
+      "name": "Lacrimogen",
+      "type": "potion",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lacrimogen"
+    },
+    {
+      "name": "LacrimogenaBulletHitsBlocke",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lacrimogena_bullet_hits_blocke",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.pasamotantalegs.name": "Pasamotanta Leggings",
       "item.pasamotantaboots.name": "Pasamotanta Boots",
+      "item.pasamotantalegs.name": "Pasamotanta Leggings",
       "item.panuelorojohelmet.name": "Pañuelo rojo ",
       "item.trajespidermanboots.name": "Botas de spiderman",
       "item.chalecoamarilloboots.name": "Chalecoamarillo Boots",
-      "entity.carabinero.name": "Carabinero",
       "item.pasamotantabody.name": "Pasamotanta Body",
+      "entity.carabinero.name": "Carabinero",
       "item.traje_carabinerohelmet.name": "Gorra de Carabinero",
       "item.pasamotantahelmet.name": "Pasa montañas",
       "item.panuelorojolegs.name": "Panuelorojo Leggings",
       "item.acta_de_independencia.name": "Acta De Independencia",
       "itemGroup.taboutbreakarmor": "Outbreak Armor",
       "item.traje_carabinerolegs.name": "Pantalones de Carabinero",
+      "tipped_arrow.effect.lacrimogen": "Arrow of Lacrimogena",
       "item.traje_ffeeboots.name": "Botas FFEE",
       "item.trajespidermanhelmet.name": "Mascara de spiderman",
       "item.traje_carabinerobody.name": "Chaleco de Carabinero",
@@ -341,14 +380,18 @@
       "item.traje_ffeehelmet.name": "Casco FFEE ",
       "entity.carabinero_fuerzas_especiales.name": "Carabinero Fuerzas Especiales",
       "item.trajespidermanbody.name": "Polera de spiderman",
+      "effect.lacrimogen": "Lacrimogena",
       "item.panuelorojoboots.name": "Panuelorojo Boots",
       "item.chalecoamarillohelmet.name": "Chalecoamarillo Helmet",
       "item.chalecoamarillobody.name": "Chaleco amarillo ",
       "entity.chalecoamarillomob.name": "Chaleco amarillo",
+      "lingering_potion.effect.lacrimogen": "Lingering Lacrimogena",
       "item.traje_ffeebody.name": "Chaleco FFEE ",
       "item.chalecoamarillolegs.name": "Chalecoamarillo Leggings",
+      "splash_potion.effect.lacrimogen": "Splash Lacrimogena",
       "item.traje_ffeelegs.name": "Pantalones FFEE",
       "item.panuelorojobody.name": "Panuelorojo Body",
+      "potion.effect.lacrimogen": "Lacrimogena",
       "itemGroup.taboutbreak_items": "Outbreak Items"
     }
   },

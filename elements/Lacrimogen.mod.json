@@ -1,0 +1,19 @@
+{
+  "_fv": 10,
+  "_type": "potion",
+  "definition": {
+    "name": "Lacrimogena",
+    "effectName": "Lacrimogena",
+    "icon": "2020-09-30-224004-carabinero_ffee_jalado.png",
+    "color": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": false,
+    "registerPotionType": true,
+    "renderStatusInInventory": false,
+    "renderStatusInHUD": false
+  }
+}

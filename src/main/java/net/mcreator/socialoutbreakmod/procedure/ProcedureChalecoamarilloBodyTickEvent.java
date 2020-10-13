@@ -22,6 +22,6 @@ public class ProcedureChalecoamarilloBodyTickEvent extends ElementsSocialOutbrea
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		if (entity instanceof EntityLivingBase)
-			((EntityLivingBase) entity).addPotionEffect(new PotionEffect(MobEffects.GLOWING, (int) 60, (int) 1, (false), (false)));
+			((EntityLivingBase) entity).addPotionEffect(new PotionEffect(MobEffects.GLOWING, (int) 80, (int) 0, (true), (true)));
 	}
 }

@@ -36,10 +36,10 @@
     "bulletModel": "Default",
     "customBulletModelTexture": "",
     "onBulletHitsBlock": {
-      "name": "LacrimogenaBulletHitsLivingEntity"
+      "name": "LacrimogenaBulletHitsBlocke"
     },
     "onBulletHitsEntity": {
-      "name": "LacrimogenaBulletHitsLivingEntity"
+      "name": "LacrimogenaBulletHitsBlocke"
     }
   }
 }

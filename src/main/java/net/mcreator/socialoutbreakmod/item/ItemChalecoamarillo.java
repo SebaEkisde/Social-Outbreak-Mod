@@ -51,6 +51,7 @@ public class ItemChalecoamarillo extends ElementsSocialOutbreakModMod.ModElement
 				int z = (int) entity.posZ;
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
+					$_dependencies.put("entity", entity);
 					ProcedureChalecoamarilloBodyTickEvent.executeProcedure($_dependencies);
 				}
 			}
