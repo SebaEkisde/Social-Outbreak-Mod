@@ -33,7 +33,7 @@ public class ItemPasamotanta extends ElementsSocialOutbreakModMod.ModElement {
 
 	@Override
 	public void initElements() {
-		ItemArmor.ArmorMaterial enuma = EnumHelper.addArmorMaterial("PASAMOTANTA", "social_outbreak_mod:2020-09-30-224350-dibujoe_", 24,
+		ItemArmor.ArmorMaterial enuma = EnumHelper.addArmorMaterial("PASAMOTANTA", "social_outbreak_mod:2020-10-15-122435-dibujo135_", 24,
 				new int[]{2, 5, 6, 1}, 9, (net.minecraft.util.SoundEvent) net.minecraft.util.SoundEvent.REGISTRY.getObject(new ResourceLocation("")),
 				0f);
 		elements.items.add(() -> new ItemArmor(enuma, 0, EntityEquipmentSlot.HEAD).setUnlocalizedName("pasamotantahelmet")

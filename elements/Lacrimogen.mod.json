@@ -14,6 +14,9 @@
     "isBenefitical": false,
     "registerPotionType": true,
     "renderStatusInInventory": false,
-    "renderStatusInHUD": false
+    "renderStatusInHUD": false,
+    "onActiveTick": {
+      "name": "LacrimogenOnPotionActiveTick"
+    }
   }
 }

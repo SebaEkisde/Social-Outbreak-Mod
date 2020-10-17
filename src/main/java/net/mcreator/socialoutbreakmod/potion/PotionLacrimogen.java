@@ -5,12 +5,18 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.fml.common.registry.ForgeRegistries;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 
+import net.minecraft.world.World;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.potion.PotionType;
 import net.minecraft.potion.PotionEffect;
 import net.minecraft.potion.Potion;
+import net.minecraft.entity.EntityLivingBase;
 
+import net.mcreator.socialoutbreakmod.procedure.ProcedureLacrimogenOnPotionActiveTick;
 import net.mcreator.socialoutbreakmod.ElementsSocialOutbreakModMod;
+
+import java.util.Map;
+import java.util.HashMap;
 
 @ElementsSocialOutbreakModMod.ModElement.Tag
 public class PotionLacrimogen extends ElementsSocialOutbreakModMod.ModElement {
@@ -60,6 +66,19 @@ public class PotionLacrimogen extends ElementsSocialOutbreakModMod.ModElement {
 		@Override
 		public boolean shouldRenderHUD(PotionEffect effect) {
 			return false;
+		}
+
+		@Override
+		public void performEffect(EntityLivingBase entity, int amplifier) {
+			World world = entity.world;
+			int x = (int) entity.posX;
+			int y = (int) entity.posY;
+			int z = (int) entity.posZ;
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ProcedureLacrimogenOnPotionActiveTick.executeProcedure($_dependencies);
+			}
 		}
 
 		@Override

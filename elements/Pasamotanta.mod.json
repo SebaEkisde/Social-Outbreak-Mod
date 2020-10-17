@@ -3,7 +3,7 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "2020-09-30-221953-dibujo_24",
+    "textureHelmet": "2020-10-15-122637-dibujo_137",
     "enableBody": false,
     "textureBody": "",
     "enableLeggings": false,
@@ -13,7 +13,7 @@
     "creativeTab": {
       "value": "CUSTOM:Outbreakarmor"
     },
-    "armorTextureFile": "2020-09-30-224350-dibujoe_",
+    "armorTextureFile": "2020-10-15-122435-dibujo135_",
     "helmetName": "Pasa montañas",
     "bodyName": "Pasamotanta Body",
     "leggingsName": "Pasamotanta Leggings",
