@@ -1,0 +1,30 @@
+{
+  "group": "social_outbreak_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:wool",
+      "data": 15
+    },
+    "2": {
+      "item": "minecraft:wool",
+      "data": 15
+    },
+    "3": {
+      "item": "minecraft:wool",
+      "data": 0
+    },
+    "5": {
+      "item": "minecraft:wool",
+      "data": 0
+    }
+  },
+  "result": {
+    "item": "social_outbreak_mod:trajespidermanboots",
+    "count": 1
+  }
+}

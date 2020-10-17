@@ -1,0 +1,43 @@
+{
+  "group": "social_outbreak_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:wool",
+      "data": 14
+    },
+    "1": {
+      "item": "minecraft:wool",
+      "data": 0
+    },
+    "2": {
+      "item": "minecraft:wool",
+      "data": 14
+    },
+    "3": {
+      "item": "minecraft:wool",
+      "data": 9
+    },
+    "5": {
+      "item": "minecraft:wool",
+      "data": 9
+    },
+    "6": {
+      "item": "minecraft:wool",
+      "data": 9
+    },
+    "8": {
+      "item": "minecraft:wool",
+      "data": 9
+    }
+  },
+  "result": {
+    "item": "social_outbreak_mod:trajespidermanlegs",
+    "count": 1
+  }
+}

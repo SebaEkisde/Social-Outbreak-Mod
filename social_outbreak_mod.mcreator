@@ -1,6 +1,6 @@
 {
   "id_map": {
-    "ENTITY": 9
+    "ENTITY": 11
   },
   "mod_elements": [
     {
@@ -384,19 +384,85 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "rpnepepe"
+    },
+    {
+      "name": "Banderanegra",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "banderanegra"
+    },
+    {
+      "name": "Rsebafeocupaloxd",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rsebafeocupaloxd"
+    },
+    {
+      "name": "Paconormal",
+      "type": "mob",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 10,
+        "1": 11
+      },
+      "registry_name": "paconormal"
+    },
+    {
+      "name": "Rspiderman",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rspiderman"
+    },
+    {
+      "name": "Rspi2",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rspi_2"
+    },
+    {
+      "name": "R3ff",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "r_3ff"
+    },
+    {
+      "name": "Rpatas",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rpatas"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.pasamotantalegs.name": "Pasamotanta Leggings",
       "item.pasamotantaboots.name": "Pasamotanta Boots",
+      "item.pasamotantalegs.name": "Pasamotanta Leggings",
       "item.panuelorojohelmet.name": "Pañuelo rojo ",
       "item.trajespidermanboots.name": "Botas de spiderman",
       "item.chalecoamarilloboots.name": "Chalecoamarillo Boots",
-      "entity.carabinero.name": "Carabinero",
       "item.pasamotantabody.name": "Pasamotanta Body",
+      "entity.carabinero.name": "Carabinero",
       "item.traje_carabinerohelmet.name": "Gorra de Carabinero",
       "item.pasamotantahelmet.name": "Pasa montañas",
       "item.panuelorojolegs.name": "Panuelorojo Leggings",
@@ -411,9 +477,10 @@
       "item.traje_carabineroboots.name": "Botas de Carabinero",
       "item.lacrimogena.name": "Lacrimogena",
       "item.trajespidermanlegs.name": "Pantalones de spiderman",
+      "entity.paconormal.name": "Carabinero Fuerzas Especiales",
       "tile.criochet.name": "criochet",
       "item.traje_ffeehelmet.name": "Casco FFEE ",
-      "entity.carabinero_fuerzas_especiales.name": "Carabinero Fuerzas Especiales",
+      "entity.carabinero_fuerzas_especiales.name": "Carabinero Fuerzas Especiales Jalado",
       "item.trajespidermanbody.name": "Polera de spiderman",
       "effect.lacrimogen": "Lacrimogena",
       "item.panuelorojoboots.name": "Panuelorojo Boots",
@@ -426,6 +493,7 @@
       "splash_potion.effect.lacrimogen": "Splash Lacrimogena",
       "item.traje_ffeelegs.name": "Pantalones FFEE",
       "item.panuelorojobody.name": "Panuelorojo Body",
+      "tile.banderanegra.name": "Bandera de chile negra",
       "potion.effect.lacrimogen": "Lacrimogena",
       "itemGroup.taboutbreak_items": "Outbreak Items"
     }

@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "g",
+        "2": "chile",
+        "3": "chile_-_copia"
+      },
+      "name": "default"
+    }
+  }
+}
