@@ -62,7 +62,7 @@
       "metadata": {
         "eh": true,
         "el": true,
-        "eb": true,
+        "eb": false,
         "ec": true
       }
     },
@@ -375,6 +375,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "rpm"
+    },
+    {
+      "name": "Rpnepepe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rpnepepe"
     }
   ],
   "variable_elements": [],
@@ -402,7 +411,7 @@
       "item.traje_carabineroboots.name": "Botas de Carabinero",
       "item.lacrimogena.name": "Lacrimogena",
       "item.trajespidermanlegs.name": "Pantalones de spiderman",
-      "tile.criochet.name": "Cono",
+      "tile.criochet.name": "criochet",
       "item.traje_ffeehelmet.name": "Casco FFEE ",
       "entity.carabinero_fuerzas_especiales.name": "Carabinero Fuerzas Especiales",
       "item.trajespidermanbody.name": "Polera de spiderman",

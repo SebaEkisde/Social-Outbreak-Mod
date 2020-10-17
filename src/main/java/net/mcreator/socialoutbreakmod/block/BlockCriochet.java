@@ -27,7 +27,6 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockHorizontal;
 import net.minecraft.block.Block;
 
-import net.mcreator.socialoutbreakmod.creativetab.TabOutbreakItems;
 import net.mcreator.socialoutbreakmod.ElementsSocialOutbreakModMod;
 
 @ElementsSocialOutbreakModMod.ModElement.Tag
@@ -61,7 +60,7 @@ public class BlockCriochet extends ElementsSocialOutbreakModMod.ModElement {
 			setResistance(20F);
 			setLightLevel(0.06F);
 			setLightOpacity(0);
-			setCreativeTab(TabOutbreakItems.tab);
+			setCreativeTab(null);
 			this.setDefaultState(this.blockState.getBaseState().withProperty(FACING, EnumFacing.NORTH));
 		}
 

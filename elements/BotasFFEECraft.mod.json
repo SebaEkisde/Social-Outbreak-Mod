@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:TrajeFFEE.boots"
+      "value": "Blocks.AIR"
     },
     "name": "botas_ffee_craft",
     "namespace": "mod"

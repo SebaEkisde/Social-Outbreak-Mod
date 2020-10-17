@@ -10,22 +10,13 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Items.PRISMARINE_SHARD"
+        "value": ""
       },
       {
-        "value": "Items.PRISMARINE_SHARD"
+        "value": ""
       },
       {
-        "value": "Items.PRISMARINE_SHARD"
-      },
-      {
-        "value": "Items.PRISMARINE_SHARD"
-      },
-      {
-        "value": "Blocks.GLASS_PANE"
-      },
-      {
-        "value": "Items.PRISMARINE_SHARD"
+        "value": ""
       },
       {
         "value": ""
@@ -35,12 +26,21 @@
       },
       {
         "value": ""
+      },
+      {
+        "value": "Blocks.WOOL#14"
+      },
+      {
+        "value": "Blocks.WOOL#14"
+      },
+      {
+        "value": "Blocks.WOOL#14"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:TrajeFFEE.helmet"
+      "value": "CUSTOM:Panuelorojo.helmet"
     },
-    "name": "casco_ffee_craft",
+    "name": "rpnepepe",
     "namespace": "mod"
   }
 }

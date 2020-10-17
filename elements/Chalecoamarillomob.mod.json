@@ -5,7 +5,7 @@
     "mobName": "Chaleco amarillo",
     "mobLabel": "",
     "mobModelName": "Biped",
-    "mobModelTexture": "2020-09-30-224004-carabinero_ffee_jalado.png",
+    "mobModelTexture": "2020-09-30-224328-chaleco_amarillo.png",
     "mobModelGlowTexture": "",
     "modelWidth": 0.6,
     "modelHeight": 1.8,
@@ -70,7 +70,7 @@
     "immuneToPotions": false,
     "immuneToPlayer": false,
     "mobDrop": {
-      "value": ""
+      "value": "CUSTOM:Chalecoamarillo.body"
     },
     "livingSound": {
       "value": ""

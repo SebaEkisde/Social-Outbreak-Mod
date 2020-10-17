@@ -8,7 +8,7 @@
     "textureBody": "2020-09-30-224014-chaleco_ffee",
     "enableLeggings": true,
     "textureLeggings": "2020-09-30-224044-pantalones_ffee",
-    "enableBoots": true,
+    "enableBoots": false,
     "textureBoots": "2020-09-30-224157-zapatos_de_carabinero",
     "creativeTab": {
       "value": "CUSTOM:Outbreakarmor"

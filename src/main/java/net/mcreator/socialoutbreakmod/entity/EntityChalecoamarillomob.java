@@ -11,6 +11,7 @@ import net.minecraft.world.biome.Biome;
 import net.minecraft.world.World;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.DamageSource;
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.entity.player.EntityPlayer;
@@ -29,6 +30,7 @@ import net.minecraft.entity.Entity;
 import net.minecraft.client.renderer.entity.RenderBiped;
 import net.minecraft.client.model.ModelBiped;
 
+import net.mcreator.socialoutbreakmod.item.ItemChalecoamarillo;
 import net.mcreator.socialoutbreakmod.ElementsSocialOutbreakModMod;
 
 import java.util.Iterator;
@@ -63,7 +65,7 @@ public class EntityChalecoamarillomob extends ElementsSocialOutbreakModMod.ModEl
 		RenderingRegistry.registerEntityRenderingHandler(EntityCustom.class, renderManager -> {
 			RenderBiped customRender = new RenderBiped(renderManager, new ModelBiped(), 0.5f) {
 				protected ResourceLocation getEntityTexture(Entity entity) {
-					return new ResourceLocation("social_outbreak_mod:textures/2020-09-30-224004-carabinero_ffee_jalado.png");
+					return new ResourceLocation("social_outbreak_mod:textures/2020-09-30-224328-chaleco_amarillo.png");
 				}
 			};
 			customRender.addLayer(new net.minecraft.client.renderer.entity.layers.LayerBipedArmor(customRender) {
@@ -112,7 +114,7 @@ public class EntityChalecoamarillomob extends ElementsSocialOutbreakModMod.ModEl
 
 		@Override
 		protected Item getDropItem() {
-			return null;
+			return new ItemStack(ItemChalecoamarillo.body, (int) (1)).getItem();
 		}
 
 		@Override

@@ -22,13 +22,13 @@
     "Mx": 1.0,
     "My": 2.0,
     "Mz": 1.0,
-    "name": "Cono",
+    "name": "criochet",
     "specialInfo": [],
     "hardness": 2.55,
     "resistance": 20.0,
     "hasGravity": false,
     "creativeTab": {
-      "value": "CUSTOM:OutbreakItems"
+      "value": "No creative tab entry"
     },
     "destroyTool": "pickaxe",
     "customDrop": {

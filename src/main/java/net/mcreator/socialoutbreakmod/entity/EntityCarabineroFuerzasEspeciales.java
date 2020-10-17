@@ -11,6 +11,7 @@ import net.minecraft.world.biome.Biome;
 import net.minecraft.world.World;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.DamageSource;
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.entity.player.EntityPlayer;
@@ -29,6 +30,7 @@ import net.minecraft.entity.Entity;
 import net.minecraft.client.renderer.entity.RenderBiped;
 import net.minecraft.client.model.ModelBiped;
 
+import net.mcreator.socialoutbreakmod.item.ItemLacrimogena;
 import net.mcreator.socialoutbreakmod.ElementsSocialOutbreakModMod;
 
 import java.util.Iterator;
@@ -112,7 +114,7 @@ public class EntityCarabineroFuerzasEspeciales extends ElementsSocialOutbreakMod
 
 		@Override
 		protected Item getDropItem() {
-			return null;
+			return new ItemStack(ItemLacrimogena.block, (int) (1)).getItem();
 		}
 
 		@Override

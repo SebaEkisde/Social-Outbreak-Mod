@@ -42,8 +42,6 @@ public class ItemTrajeFFEE extends ElementsSocialOutbreakModMod.ModElement {
 				.setRegistryName("traje_ffeebody").setCreativeTab(TabOutbreakarmor.tab));
 		elements.items.add(() -> new ItemArmor(enuma, 0, EntityEquipmentSlot.LEGS).setUnlocalizedName("traje_ffeelegs")
 				.setRegistryName("traje_ffeelegs").setCreativeTab(TabOutbreakarmor.tab));
-		elements.items.add(() -> new ItemArmor(enuma, 0, EntityEquipmentSlot.FEET).setUnlocalizedName("traje_ffeeboots")
-				.setRegistryName("traje_ffeeboots").setCreativeTab(TabOutbreakarmor.tab));
 	}
 
 	@SideOnly(Side.CLIENT)
@@ -52,6 +50,5 @@ public class ItemTrajeFFEE extends ElementsSocialOutbreakModMod.ModElement {
 		ModelLoader.setCustomModelResourceLocation(helmet, 0, new ModelResourceLocation("social_outbreak_mod:traje_ffeehelmet", "inventory"));
 		ModelLoader.setCustomModelResourceLocation(body, 0, new ModelResourceLocation("social_outbreak_mod:traje_ffeebody", "inventory"));
 		ModelLoader.setCustomModelResourceLocation(legs, 0, new ModelResourceLocation("social_outbreak_mod:traje_ffeelegs", "inventory"));
-		ModelLoader.setCustomModelResourceLocation(boots, 0, new ModelResourceLocation("social_outbreak_mod:traje_ffeeboots", "inventory"));
 	}
 }
